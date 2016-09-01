@@ -1,0 +1,15 @@
+{
+  "name": "cowriter",
+  "version": "0.0.0",
+  "description": "cowriter base on electron-vue ",
+  "main": "electron.js",
+  "dependencies": {
+    "vue": "next",
+    "vue-electron": "^1.0.0",
+    "vue-resource": "^0.7.0",
+    "vue-router": "next",
+    "vuex": "next"
+  },
+  "devDependencies": {},
+  "author": "yayanyang <yayanyang@gmail.com>"
+}
