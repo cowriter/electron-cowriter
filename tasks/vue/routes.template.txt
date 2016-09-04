@@ -1,4 +1,4 @@
-  '/': {
-    component: require('./components/View'),
-    name: ''
+  '/{{routeName}}': {
+    component: require('./components/{{routeName}}View'),
+    name: '{{routeName}}'
   }

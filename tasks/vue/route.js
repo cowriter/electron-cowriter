@@ -22,7 +22,7 @@ routes.splice(
   routes.length - 2,
   0,
   routesTemplate
-    .replace(//g, routeName)
+    .replace(/{{routeName}}/g, routeName)
     .replace(/\n$/, '')
 )
 

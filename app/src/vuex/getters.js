@@ -1,1 +1,3 @@
-export const mainCounter = state => state.counters.main;
+export function mainCounter (state) {
+  return state.counters.main
+}

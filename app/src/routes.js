@@ -1,11 +1,12 @@
-export default [
-  {
-    path: '/',
-    name: 'landing-page',
-    component: require('components/LandingPageView'),
+import Vue from 'vue'
+
+export default {
+  '/': {
+    component: Vue.component('landing-page', require('./components/LandingPageView')),
+    name: 'landing-page'
   },
-  {
-    path: '*',
-    redirect: '/',
-  },
-];
+  '/MainPage': {
+    component: require('./components/MainPageView'),
+    name: 'MainPage'
+  }
+}

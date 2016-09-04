@@ -1,6 +1,6 @@
-# cowriter
+# electron-cowriter
 
-> cowriter base on electron-vue 
+> electron base markdown editor 
 
 ## Build Setup
 

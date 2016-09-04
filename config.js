@@ -6,9 +6,9 @@ const pkg = require('./app/package.json')
 let config = {
   // Name of electron app
   // Will be used in production builds
-  name: 'cowriter',
+  name: 'electron-cowriter',
 
-  // Use ESLint (extends `airbnb`)
+  // Use ESLint (extends `standard`)
   // Further changes can be made in `.eslintrc.js`
   eslint: true,
 

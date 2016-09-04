@@ -1,7 +1,7 @@
 {
-  "name": "cowriter",
+  "name": "electron-cowriter",
   "version": "0.0.0",
-  "description": "cowriter base on electron-vue ",
+  "description": "electron base markdown editor ",
   "scripts": {
     "build": "node tasks/release.js",
     "build:clean": "cross-env PLATFORM_TARGET=clean node tasks/release.js",
@@ -38,8 +38,9 @@
     "eslint-friendly-formatter": "^2.0.5",
     "eslint-loader": "^1.3.0",
     "eslint-plugin-html": "^1.3.0",
-    "eslint-config-airbnb-base": "^3.0.1",
-    "eslint-plugin-import": "^1.8.1",
+    "eslint-config-standard": "^5.1.0",
+    "eslint-plugin-promise": "^1.0.8",
+    "eslint-plugin-standard": "^1.3.2",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "html-webpack-plugin": "^2.16.1",
@@ -49,7 +50,7 @@
     "url-loader": "^0.5.7",
     "vue-hot-reload-api": "^1.3.2",
     "vue-html-loader": "^1.2.2",
-    "vue-loader": "next",
+    "vue-loader": "^8.3.1",
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1"

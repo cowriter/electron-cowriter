@@ -7,7 +7,7 @@
 
 <template>
   <div>
-    <img src="./LandingPageView/assets/logo.png" alt="electron-vue">
+    <img src="LandingPageView/assets/logo.png" alt="electron-vue">
     <h1>Welcome.</h1>
     <current-page></current-page>
     <versions></versions>
@@ -16,16 +16,16 @@
 </template>
 
 <script>
-  import CurrentPage from './LandingPageView/CurrentPage';
-  import Links from './LandingPageView/Links';
-  import Versions from './LandingPageView/Versions';
+  import CurrentPage from './LandingPageView/CurrentPage'
+  import Links from './LandingPageView/Links'
+  import Versions from './LandingPageView/Versions'
 
   export default {
     components: {
       CurrentPage,
       Links,
-      Versions,
+      Versions
     },
-    name: 'landing-page',
-  };
+    name: 'landing-page'
+  }
 </script>
